@@ -1,0 +1,83 @@
+/* General Section Styling */
+.why-choose-us {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  
+  .why-choose-us p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+  }
+  
+  /* Cards/Items Container */
+  .why-choose-us .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual Card Styling */
+  .why-choose-us .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .why-choose-us .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Icon Styling */
+  .why-choose-us .card .icon {
+    font-size: 3rem;
+    color: #007BFF; /* Primary Color */
+    margin-bottom: 15px;
+  }
+  
+  /* Card Title Styling */
+  .why-choose-us .card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  /* Card Description Styling */
+  .why-choose-us .card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .why-choose-us .cards-container {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .why-choose-us .card {
+      width: 100%;
+    }
+  }
+  
